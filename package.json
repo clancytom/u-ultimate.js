@@ -1,0 +1,22 @@
+{
+  "name": "7788-spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/superagent": "^4.1.4",
+    "cheerio": "^1.0.0-rc.3",
+    "md5": "^2.2.1",
+    "superagent": "^5.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.2"
+  }
+}
