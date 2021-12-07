@@ -1,0 +1,5 @@
+/**
+ * @license UultimateJS v"NG_VERSION_FULL"
+ * License: MIT
+ */
+(function(window, angular) {
