@@ -12,3 +12,20 @@ It also helps with server-side communication, taming async callbacks with promis
 and it makes client-side navigation and deep linking with hashbang urls or HTML5 pushState a
 piece of cake. Best of all? It makes development fun!
 
+---
+
+## how to use ultimate.js
+
+**method one: npm install**
+
+```shell
+npm i u-ultimate --save
+```
+
+**method two: compile and install**
+
+```shell
+git clone git@github.com:clancytom/u-ultimate.js.git
+yarn install
+yarn run build
+```
