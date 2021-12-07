@@ -1,5 +1,5 @@
  
-![UultimateJS](https://github.com/clancytom/u-ultimate.js/blob/develop/images/logo.png)
+![UultimateJS](https://github.com/clancytom/u-ultimate.js/blob/develop/images/uultimate-logo.png)
 =========
 
 UultimateJS lets you write client-side web applications as if you had a smarter browser.  It lets you
