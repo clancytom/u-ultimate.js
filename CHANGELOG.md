@@ -2,11 +2,9 @@
 # 1.0.2 meteoric-mining (2021-12-10)
 
 ## Bug Fixes
-- **$sceDelegate:** ensure that `resourceUrlWhitelist()` is identical `trustedResourceUrlList()`
+- **$sceDelegate:** ensure that `resourceUrlWhitelist()` is identical to `trustedResourceUrlList()`
   ([13f66a](https://github.com/clancytom/u-ultimate.js/commit/13f66a9478ca3057c9875e09bcf0cddf99e928d5),
   [#32](https://github.com/clancytom/u-ultimate.js/issues/32))
-- **$sanitize:** do not trigger CSP alert/report in Firefox and Chrome
-  ([f3bca05](https://github.com/clancytom/u-ultimate.js/commit/f3bca054a646d01179082fc5b5e2857c5f5e5b6b))
 
 <a name="1.0.1"></a>
 # 1.0.1 mutually-supporting (2021-12-07)
@@ -27,15 +25,15 @@
 ## Deprecation Notices
 
 - Deprecated ~~`$compileProvider.aHrefSanitizationWhitelist`~~.
-  It is now [aHrefSanitizationTrustedUrlList](https://docs.angularjs.org/api/ng/provider/$compileProvider#aHrefSanitizationTrustedUrlList)`.
+  It is now [`aHrefSanitizationTrustedUrlList`](https://docs.angularjs.org/api/ng/provider/$compileProvider#aHrefSanitizationTrustedUrlList).
 - Deprecated ~~`$compileProvider.imgSrcSanitizationWhitelist`~~.
-  It is now [imgSrcSanitizationTrustedUrlList](https://docs.angularjs.org/api/ng/provider/$compileProvider#imgSrcSanitizationTrustedUrlList).
+  It is now [`imgSrcSanitizationTrustedUrlList`](https://docs.angularjs.org/api/ng/provider/$compileProvider#imgSrcSanitizationTrustedUrlList).
 - Deprecated ~~`$httpProvider.xsrfWhitelistedOrigins`~~.
-  It is now [xsrfTrustedOrigins](https://docs.angularjs.org/api/ng/provider/$httpProvider#xsrfTrustedOrigins).
+  It is now [`xsrfTrustedOrigins`](https://docs.angularjs.org/api/ng/provider/$httpProvider#xsrfTrustedOrigins).
 - Deprecated ~~`$sceDelegateProvider.resourceUrlWhitelist`~~.
-  It is now [trustedResourceUrlList](https://docs.angularjs.org/api/ng/provider/$sceDelegateProvider#trustedResourceUrlList).
+  It is now [`trustedResourceUrlList`](https://docs.angularjs.org/api/ng/provider/$sceDelegateProvider#trustedResourceUrlList).
 - Deprecated ~~`$sceDelegateProvider.resourceUrlBlacklist`~~.
-  It is now [bannedResourceUrlList](https://docs.angularjs.org/api/ng/provider/$sceDelegateProvider#bannedResourceUrlList).
+  It is now [`bannedResourceUrlList`](https://docs.angularjs.org/api/ng/provider/$sceDelegateProvider#bannedResourceUrlList).
 
 
 For the purposes of backward compatibility, the previous symbols are aliased to their new symbol.
