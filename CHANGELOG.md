@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+# 1.0.2 meteoric-mining (2021-12-10)
+
+## Bug Fixes
+- **$sceDelegate:** ensure that `resourceUrlWhitelist()` is identical `trustedResourceUrlList()`
+  ([13f66a](https://github.com/clancytom/u-ultimate.js/commit/13f66a9478ca3057c9875e09bcf0cddf99e928d5),
+  [#32](https://github.com/clancytom/u-ultimate.js/issues/32))
+- **$sanitize:** do not trigger CSP alert/report in Firefox and Chrome
+  ([f3bca05](https://github.com/clancytom/u-ultimate.js/commit/f3bca054a646d01179082fc5b5e2857c5f5e5b6b))
+
 <a name="1.0.1"></a>
 # 1.0.1 mutually-supporting (2021-12-07)
 
