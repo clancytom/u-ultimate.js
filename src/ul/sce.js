@@ -258,7 +258,7 @@ function $SceDelegateProvider() {
    * @deprecated
    * sinceVersion="1.8.1"
    *
-   * This function is deprecated. Use {@link $sceDelegateProvider#bannedResourceUrlList
+   * This method is deprecated. Use {@link $sceDelegateProvider#bannedResourceUrlList
    * bannedResourceUrlList} instead.
    */
   Object.defineProperty(this, 'resourceUrlBlacklist', {
